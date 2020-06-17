@@ -1,0 +1,50 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: 'Metal Mania', cursive; /* this should be the rest of the output you got from Google fonts */
+}
+h1 {
+  font-size: 70px;
+  text-align: right;
+}
+h2 {
+  font-size: 40px;
+  text-align: right;
+}
+
+p, li {
+  font-size: 16px;    
+  font-family: 'Sriracha', cursive;
+  line-height: 1;
+  letter-spacing: 1px;
+  background-origin: padding-box;
+}
+html {
+  background-image: url("https://images.squarespace-cdn.com/content/587e54ab3e00becc5a895fbf/1579887147315-LQOJVGIRDWL4BPPFWH0H/Wayne%27s+World+2.jpg?content-type=image%2Fjpeg");
+  background-color: #302955;
+}
+body {
+  width: 700px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid blue;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;    
+  color: #0a0a0a;
+  text-shadow: 3px 3px 1px grey;
+}
+img {
+  display: block;
+  rotate: portrait;
+}
+.container {
+  width: 200px;
+  height: 120px;
+}
+
+.container img {
+  width: 130%;
+  height: auto;
+}
